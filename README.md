@@ -16,9 +16,18 @@ code during an interview, where the developer can show his/her
 pragmatism and reluctance for "reinventing the wheel".
 
 
-## Arguments
+## Usage
 
-Takes optional arguments:
+Simple usage:
+
+    $ npm install -s fizzbuzz.js
+
+Then:
+
+    var fizzBuzz = require('fizzbuzz.js').fizzBuzz;
+    var results = fizzBuzz();
+
+FizzBuzz takes optional arguments:
 
 * **n**: (Number) Start value, default: `1`
 * **m**: (Number) End value, defalt: `100`
@@ -28,13 +37,9 @@ Takes optional arguments:
 * **div1**: (Number) Alternative second divisible value, default `5`
 
 
-## Example
-
-To run the example, `npm run-script example`.
-
 This will return an array for values 1 to 100, for values divisible by 3 and 5.
 
-    var fizzBuzz = require('FizzBuzz.js').fizzBuzz;
+    var fizzBuzz = require('fizzbuzz.js').fizzBuzz;
     var results = fizzBuzz(1, 100, 'Fizz', 'Buzz', 3, 5);
 
 Returns an array with the following indexed values:

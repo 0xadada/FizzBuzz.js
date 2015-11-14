@@ -1,6 +1,6 @@
 {
   "name": "fizzbuzz.js",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "🐝FizzBuzz solution for values n:m, w/optional divisors & text",
   "homepage": "https://github.com/0xADADA/FizzBuzz.js",
   "author": "Ron. A <github.com@0xadada.pub>",
@@ -9,9 +9,6 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/0xadada/FizzBuzz.js.git"
-  },
-  "scripts": {
-    "example": "node example.js"
   },
   "bugs": {
     "url": "https://github.com/0xadada/FizzBuzz.js/issues"
