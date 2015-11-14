@@ -6,6 +6,18 @@ Return an array from values n:m for i, yielding [f] + [b] for value
 (n+i % div0) === 0 && (n+i % div1) === 0, yielding [f] for value
 (n+i % div0) === 0, yielding [b] for value (n+i % div1) === 0.
 
+This solution to the FizzBuzz problem was inspired by a thread on Reddit
+about common frontend developer interview questions. I [implemented a
+solution using a bodyless for-loop with heavy use of ternary
+operators](https://gist.github.com/0xadada/ccb5cd069138e5bb7549).
+
+This example was then turned into this Node module for even more concise
+code during an interview, where the developer can show his/her
+pragmatism and reluctance for "reinventing the wheel".
+
+
+## Arguments
+
 Takes optional arguments:
 
 * **n**: (Number) Start value, default: `1`
@@ -102,7 +114,6 @@ Returns an array with the following indexed values:
     73 73
     74 74
     75 'FizzBuzz'
-     28 Takes six optional arguments:¬
     76 76
     77 77
     78 'Fizz'
