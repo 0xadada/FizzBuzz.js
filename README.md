@@ -2,9 +2,9 @@
 
 FizzBuzz solution for values n:m, w/optional divisors & text.
 
-Return an array from values n:m for i, yielding [f] + [b] for value
-(n+i % div0) === 0 && (n+i % div1) === 0, yielding [f] for value
-(n+i % div0) === 0, yielding [b] for value (n+i % div1) === 0.
+Return an array from values `n:m` for `i`, yielding `[f] + [b]` for value
+`(n+i % div0) === 0 && (n+i % div1) === 0`, yielding `[f]` for value
+`(n+i % div0) === 0`, yielding `[b]` for value `(n+i % div1) === 0`.
 
 This solution to the FizzBuzz problem was inspired by a thread on Reddit
 about common frontend developer interview questions. I [implemented a
@@ -148,8 +148,7 @@ Returns an array with the following indexed values:
 
 ## Authors
 
-* [Ron. A](https://github.com/0xadada) -
-  [@0xadada](http://twitter.com/0xadada)
+*  [@0xadada](http://twitter.com/0xadada)
 
 
 ## License
